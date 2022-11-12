@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="java.js"></script>
+  </head>
+  <body>
+    <form action="" method="post" id="form">
+      <h1>Formulario</h1>
+      <section class="form-registro">
+        <h4>Formulario Registro</h4>
+        <input
+          maxlength="20"
+          minlength="4"
+          class="control"
+          type="text"
+          name=""
+          id="nombre"
+          placeholder="Ingrese su Nombre"
+          required=""
+          pattern="[a-zA-Z]+"
+        />
+        <input
+          maxlength="20"
+          minlength="4"
+          class="control"
+          type="text"
+          name=""
+          id="apellido"
+          placeholder="Ingrese su Apellido"
+          required=""
+        />
+        <input
+          class="control"
+          type="email"
+          name=""
+          id="correo"
+          placeholder="Ingrese su Correo"
+          required=""
+        />
+        <input
+          minlength="8"
+          class="control"
+          type="password"
+          name=""
+          id="contraseña"
+          placeholder="Ingrese su Contraseña"
+          required=""
+          pattern="[a-zA-Z0-9]+"
+        />
+        <p>Estoy de acuerdo con los terminos y condiciones</p>
+        <input class="boton" type="submit" value="Registrar" />
+      </section>
+    </form>
+  </body>
+</html>
